@@ -4,7 +4,7 @@ $name = $_Post['name'];
 $name = $_Post['name'];
 $message = $_Post['message'];
 
-$email_form = 'abelcoss@gmail.com';
+$email_from = 'abelcoss@gmail.com';
 
 $email_subject = 'Requisito de Informacion Chile';
 
