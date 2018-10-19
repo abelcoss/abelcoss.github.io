@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+  <div class="logo">
+<img src="images/logo.png" alt="UNO">
+  </div>
+
+  <div class="contenido">
+    <h1>Estamos orgullos de anunciar la llegada
+    del nuevo servicio de envío de dinero
+    de Chile para el mundo.</h1>
+<br>
+Con mas de 20 años de experienca
+y una red con presencia en mas de 20 paises.
+<br><br>
+
+
+
+  <button class="accordion"><img src="png/cl.png">Chile
+<svg xmlns="https://www.w3.org/2000/svg"
+aria-hidden="true"
+focusable="false"
+width="20px"
+height="20px"
+viewBox="0 0 20 16"
+fill="#0077B3">
+<path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+</path><path d="M0-.75h24v24H0z" fill="none"></path></svg></button>
+<div class="panel">
+<p><img src="png/bo.png">Bolivia</p>
+<p><img src="png/py.png">Paraguay</p>
+<p><img src="png/pe.png">Peru</p>
+<p><img src="png/do.png">Republica Dominicana</p>
+<p><img src="png/ht.png">Haiti</p>
+<p><img src="png/co.png">Colombia</p>
+<p><img src="png/sn.png">Senegal</p>
+<p><img src="png/ec.png">Ecuador</p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+<div class="paises">
+
+
+  <div class="dropdown">
+    <button class="dropbtn"><img src="png/cl.png">Chile
+<svg xmlns="https://www.w3.org/2000/svg"
+aria-hidden="true"
+focusable="false"
+width="20px"
+height="20px"
+viewBox="0 0 20 16"
+fill="#0077B3">
+<path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+</path><path d="M0-.75h24v24H0z" fill="none"></path></svg>
+    </button>
+
+
+    <div class="dropdown-content">
+      <!--
+      <a href="#">Bolivia</a>
+      <a href="#">Bolivia</a>
+      <a href="#">Bolivia</a>
+      <a href="#">Colombia</a>
+      <a href="#">Republica Dominicana</a>
+      <a href="#">Senegal</a>
+      <a href="#">Haiti</a>
+      <a href="#">Ecuador</a>
+    -->
+
+    <div class="divTable blueTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell"><img src="png/bo.png">Bolivia</div>
+<div class="divTableCell"><img src="png/py.png">Paraguay</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><img src="png/pe.png">Peru</div>
+<div class="divTableCell"><img src="png/co.png">Colombia</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><img src="png/do.png">Republica Dominicana</div>
+<div class="divTableCell"><img src="png/sn.png">Senegal</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell"><img src="png/ht.png">Haiti</div>
+<div class="divTableCell"><img src="png/ec.png">Ecuador</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+</div>
+</div>
+
+<br><br>
+  Conosca mas acerca de nuestros servicios
+y solicite información poneindose en contacto
+
+<div class="wrapper">
+  <br><br>
+<a href="mailto:ventas@unomoneytransfer.cl" class="botone">
+CONTACTAR</a></div>
+
+
+</div>
+</div>
+
+  </div>
+  <div class="formulario">
+
+<div class="formulario-tabla">
+
+
+    <h1>Conviertase en un
+agente autorizado </h1>
+
+Forme parte de la red nueva red de tranferencia
+Ingrese sus datos para y nos pondremos en contacto
+con usted.
+<br><br><br>
+<!--nuevaforma  -->
+<form class="contact-form" action="contactform.php" method="post">
+  <input type="text" name="name" placeholder="Nombre">
+  <input type="text" name="mail" placeholder="Correo Electronico">
+  <input type="text" name="subject" placeholder="Telefono">
+  <textarea name="message" class="form-control" placeholder="Message..."></textarea>
+<div class="wrapper">
+  <input type="submit" name="submit" value="ENVIAR"></button>
+  <input type="submit" value="ENVIAR" >
+  <input type="button" value="ENVIAR" id="boton">
+  </div>
+</form>
+<!--vieja
+<form action="/contact-form-handler.php">
+    <label for="fname"></label>
+    <input type="text" class="form-control" name="name" placeholder="Nombre">
+
+    <label for="lname"></label>
+    <input type="text" class="form-control" name="lastname" placeholder="Apellido">
+
+    <label for="correo"></label>
+    <input type="text" class="form-control" name="email" placeholder="Correo Electronico">
+
+    <label for="numero"></label>
+    <input type="text" class="form-control" name="number" placeholder="Numero Telefonico">
+
+    <textarea name="message" class="form-control" placeholder="Mensaje..." type="text" >
+    </textarea>
+    <br><br>
+<div class="wrapper">
+    <input type="submit" value="ENVIAR">
+    </div>
+  </form>
+forma  -->
+</div>
+</div>
+
+     </main>
+     <div class="footer">OmnexGroup<br><br>
+     Inc. a licensed money transfer company NMLS No. 8995212.<br>
+   Massachusetts Foreign Transmittal Agency FT899521</div>
+
+   </body>
+   </html>
